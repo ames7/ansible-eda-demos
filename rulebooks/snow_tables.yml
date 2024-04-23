@@ -23,4 +23,4 @@
       action:
         run_job_template:
           name: EDA // No-Op
-          organization: Autodotes
+          organization: Kriegcorp

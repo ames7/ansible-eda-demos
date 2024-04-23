@@ -19,7 +19,7 @@
       action:
         run_workflow_template:
           name: EDA // Remediation Workflow // Disk Space
-          organization: Autodotes
+          organization: Kriegcorp
           job_args:
             extra_vars:
               _host: "{{ event['impactedEntities'][0]['name'] }}"
@@ -44,4 +44,4 @@
       action:
         run_job_template:
           name: EDA // Dynatrace Problems
-          organization: Autodotes
+          organization: Kriegcorp

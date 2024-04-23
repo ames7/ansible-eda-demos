@@ -14,7 +14,7 @@
         run_job_template:
           name: EDA // Linux Remediation
           retry: false
-          organization: Autodotes
+          organization: Kriegcorp
           job_args:
             extra_vars:
               _hosts: "{{ event.payload._hosts }}"
